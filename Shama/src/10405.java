@@ -28,7 +28,7 @@ class LCS{
         if(s1.charAt(i-1) == s2.charAt(j-1)){
           a[i][j] = a[i-1][j-1] +1;
         } else {
-          int max = (Integer) Math.max(a[i-1][j], a[i][j-1]);
+          int max = Math.max(a[i-1][j], a[i][j-1]);
           a[i][j] = max;
         }
         c2++;
