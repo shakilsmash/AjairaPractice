@@ -10,7 +10,6 @@ class UVA10066{
       if(s1 == 0 && s2 == 0){
         break;
       }
-      System.out.println("a1 && a2");
       int[] a1 = new int[s1];
       int a2[] = new int[s2];
       for(int i = 0; i < s1; i++){
